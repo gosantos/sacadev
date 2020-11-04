@@ -8,6 +8,7 @@ GET /stocks/msft
 
 POST /stocks/msft/sell
 {
+    uuid: 12332189
     quantity: 10
     price: 123.12 
 }
@@ -34,7 +35,8 @@ pipenv install pipenv
 pipenv install pytest
 pipenv install flask
 
+docker-compose up -d
 
-docker-compsoe up -d
+** documentation missing (swagger?)
 
 

@@ -12,6 +12,7 @@ services:
       POSTGRES_USER: sacadev-user
       POSTGRES_PASSWORD: sacadev-pass
       POSTGRES_DB: sacadev-db
+    
 
   adminer:
     image: adminer
